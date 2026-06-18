@@ -8,7 +8,7 @@ from urllib.parse import urljoin
 from openai import OpenAI
 
 # ================== CONFIG ==================
-st.set_page_config(page_title="PressPaper", layout="wide")
+st.set_page_config(page_title="News Summarisation System", layout="wide")
 
 BASE = "https://www.gov.wales"
 
@@ -19,7 +19,7 @@ CATEGORIES = {
     "Statistics & Research": "/statistics-and-research",
 }
 
-HEADERS = {"User-Agent": "PressPaper MVP"}
+HEADERS = {"User-Agent": "News Summarisation System"}
 
 JUNK_TITLES = [
     "view all",
@@ -160,7 +160,7 @@ def extract_topics(text: str):
 
 # ================== PAGES ==================
 def page_home():
-    st.title("📰 PressPaper")
+    st.title("📰 News Summarisation System ")
     st.caption("Verified Welsh Government information — AI summarised")
 
     c1, c2 = st.columns(2)
