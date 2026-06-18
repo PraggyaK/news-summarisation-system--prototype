@@ -1,4 +1,4 @@
-PressPaper – Working Prototype
+News Summarisation System  – Working Prototype
 
 This prototype demonstrates an end-to-end pipeline for verified government information.
 
